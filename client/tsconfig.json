@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "jsx": "react", // or "react-jsx" for React 17+
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "resolveJsonModule": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+      "baseUrl": "./",
+      "paths": {
+        "@components/*": ["src/components/*"],
+        "@types/*": ["src/types/*"]
+      }
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "dist"]
+  }
